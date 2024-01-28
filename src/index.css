@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.toggle{
+  transform: translateX(1.8rem);
+}
+
+.toggle .par-con{
+  background-color: blue;
+}
+
+body.toggle{
+  background-color: white;
+  color: black;
+  overflow: hidden;
+}
